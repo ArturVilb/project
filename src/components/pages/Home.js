@@ -1,16 +1,15 @@
-import React from 'react';
-import '../../App.css';
-import HeroSection from '../HeroSection';
-import Navbar from '../Navbar'
+import React from 'react'
+import Navbar from '../../components/Navbar'
+import HeroSection from '../../components/HeroSection'
 
-function Home () {
-    return (
-        <>  
-            <Navbar/>
-            asdasd
-            <HeroSection />
-        </>
-    )
+
+const Home = () => {
+  return (
+    <>
+        <Navbar />
+        <HeroSection />
+    </>
+  )
 }
 
-export default Home;
+export default Home
