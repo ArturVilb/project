@@ -16,7 +16,7 @@
 }
 
 .hero-btns {
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .fa-play-circle {
@@ -29,20 +29,21 @@ Video {
     align-items: center;
     margin: auto;
     width: 100%;
+    transition: all 0.3s ease-out;
 }
 
 .btns {
-        display: block;
-        text-align: center;
-        margin: 2rem auto;
-        border-radius: 4px;
-        text-decoration: none;
-        font-size: 1.5rem;
-        background-color: transparent;
-        color: #fff;
-        padding: 14px 20px;
-        border: 1px solid #fff;
-        transition: all 0.3s ease-out;
+    display: block;
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
 }
 
 .btns:hover {
