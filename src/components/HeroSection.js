@@ -1,16 +1,24 @@
 import React from 'react';
 import '../App.css';
-import { Button } from './Button';
 import './HeroSection.css';
+import Video from './popups/Video';
+import { useState } from 'react';
 
 function HeroSection() {
+  const [buttonPopup, setButtonPopup] = useState(false)
+
   return (
     <div className='hero-container'>
         <h1>CHECK OUT OUR NEW SONG</h1>
-        <p>Buy tickets to upcoming show!</p>
         <div className="hero-btns">
-            <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>BUY TICKETS</Button>
-            <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>WATCH TRAILER<i className='far fa-play-circle'/></Button>
+            <button className='btns' buttonStyle='btn--primary' buttonSize='btn--large' onClick={() => setButtonPopup(true)}>WATCH OFFICIAL VIDEO<i className='far fa-play-circle'/></button>
+            <Video trigger={buttonPopup} setTrigger={setButtonPopup}>
+              <div className='video-outer'>
+                <div className='video-sizing'>
+                  <video controls src='../../assets/Archetype- Tim Henson.mp4'></video>
+                </div>
+              </div>
+            </Video>
         </div>
     </div>
   )
