@@ -1,6 +1,7 @@
-import React from 'react'
-import Navbar from '../../components/Navbar'
-import HeroSection from '../../components/HeroSection'
+import React from 'react';
+import Navbar from '../../components/Navbar';
+import HeroSection from '../../components/HeroSection';
+import Cards from '../../components/cards/Cards';
 
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
     <>
         <Navbar />
         <HeroSection />
+        <Cards />
     </>
   )
 }

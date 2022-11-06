@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 5;
 }
 
 .video-inner {
@@ -18,6 +19,7 @@
     align-items: center;
     position: relative;
     padding: 32px;
+    z-index: 5;
 }
 
 .close-btn {
@@ -33,10 +35,12 @@
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
+    z-index: 5;
 }
 
 .close-btn:hover {
     background: #fff;
     color: #242424;
     transition: 250ms;
+    z-index: 5;
 }
