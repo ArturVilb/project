@@ -46,6 +46,7 @@ img {
   
   .nav-item {
     height: 80px;
+    width: 100%;
   }
   
   .nav-links {
