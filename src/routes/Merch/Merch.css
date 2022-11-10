@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+section {
+    background: grey;
+    height: 100%;
+    text-align: center;
+}
+
+.cards__merch {
+    display: inline-grid;
+    grid-template-columns: auto;
+    padding: 30px;
+}
+
+.cards__merch .merch_components {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    background: white;
+    padding: 7px;
+}
+
+.merch_components:hover {
+    box-shadow: 0 0 10px 0 rgba(252, 4, 16, 0.952);
+    transform: scale(1.05);
+    transition: all 0.2s linear;
+}
+
+.merch_components img {
+    height: 70%;
+    width: 100%;
+}
+
+.merch_button {
+    border-radius: 10px;
+    width: 40%;
+    height: 50px;
+    background-color: rgba(252, 4, 16, 0.952);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+i {
+    font-family: 'PT Sans', sans-serif;
+}

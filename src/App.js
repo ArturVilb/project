@@ -5,7 +5,7 @@ import Home from './routes/Home/Home';
 import Tour from './routes/Tour/Tour';
 import Merch from './routes/Merch/Merch';
 import Music from './routes/Music/Music';
-import BuyTickets from './routes/BuyTickets/BuyTickets';;
+import BuyTickets from './routes/BuyTickets/BuyTickets';
 
 const App = () => {
   return (

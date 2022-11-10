@@ -6,7 +6,7 @@
   
 section {
     background: grey;
-    height: 100vh;
+    height: 100%;
     text-align: center;
 }
 
@@ -24,11 +24,11 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    padding: 20px;
 }
 
 .tour {
-    background: white;
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0 6px 20px rgba(252, 4, 16, 0.952);
     -webkit-filter: drop-shadow(0 6px 20px rgba(252, 2, 2, 0.959));
