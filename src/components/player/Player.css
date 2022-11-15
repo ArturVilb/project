@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.Music {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.c-player {
+    display: block;
+    background-color: black;
+    padding: 50px;
+    width: 50%;
+}
+
+.c-player > h4 {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
+.c-player > p {
+    color: #AAA;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.c-player--details .details-img {
+    position: relative;
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.c-player--details .details-img img {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    height: 100%;
+    box-shadow: -6px -6px 12px rgba(173, 8, 8, 0.8), 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.c-player--details .details-title {
+    color: #EEE;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px rgba(173, 8, 8, 0.8), -2px -2px 4px rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.c-player--details .details-artist {
+    color: #AAA;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(173, 8, 8, 0.8), -2px -2px 4px rgba(255, 255, 255, 0.4);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.c-player--controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.c-player--controls .play-btn {
+    display: flex;
+    padding: 25px;
+    border: 0px;
+    outline: none;
+    font-size: 50px;
+    cursor: pointer;
+    background: none;
+    color: red;
+}
+
+.c-player--controls .skip-btn {
+    display: flex;
+    justify-content: space-around;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: red;
+    font-size: 35px;
+    width: 30%;
+}
+
+@media screen and (max-width: 730px) {
+    .c-player--details .details-title,
+    .c-player--details .details-artist
+      {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .c-player > h4
+      {
+        font-size: 20px;
+    }
+}
