@@ -1,10 +1,11 @@
 .cards {
   padding: 4rem;
-  background: grey;
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(37, 32, 32) 100%);
 }
 
-h1 {
+.cards h1 {
   text-align: center;
+  color: white;
 }
 
 .cards__container {
