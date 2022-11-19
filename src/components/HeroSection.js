@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './HeroSection.css';
-import Video from './popups/Video';
+import Video from './popups/video/Video';
 import { useState } from 'react';
 
 function HeroSection() {

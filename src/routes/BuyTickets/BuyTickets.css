@@ -21,25 +21,15 @@
     height: 100%;
 }
 
+.buytickets h2, .buytickets h3, .buytickets p {
+    color: white;
+}
+
 .buytickets form {
     width: 60%;
 }
 
-.buytickets h2 {
-    color: white;
-    margin-bottom: 30px;
-}
-
-.buytickets p {
-    color: white;
-}
-
-.buytickets h3 {
-    color: white;
-    margin-bottom: 30px;
-}
-
-.buytickets input, .buytickets select {
+.buytickets input, .ticketContainer select {
     width: 100%;
     padding: 6px 10px;
     margin: 10px 0;
@@ -68,7 +58,6 @@
 
 .ticketContainer {
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-flow: column;
     width: 60%;
@@ -76,7 +65,7 @@
 
 .ticketContainer form {
     border-radius: 5px;
-    width: 104%;
+    width: 100%;
 }
 
 .ticketContainer form .inputBox span {
