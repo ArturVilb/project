@@ -2,4 +2,94 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+.buytickets label {
+    color: #ddd;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buytickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    height: 100%;
+}
+
+.buytickets form {
+    width: 60%;
+}
+
+.buytickets h2 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.buytickets p {
+    color: white;
+}
+
+.buytickets h3 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.buytickets input, .buytickets select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 2px;
+}
+
+.ticketContainer button {
+    background: rgb(201, 34, 34);
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 20%;
+    margin: 30px;
+    min-width: 200px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticketContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 60%;
+}
+
+.ticketContainer form {
+    border-radius: 5px;
+    width: 104%;
+}
+
+.ticketContainer form .inputBox span {
+    display: block;
+    color: white;
+}
+
+.ticketContainer form .flexbox {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+.ticketContainer form .flexbox .inputBox {
+    flex: 1 1 150px;
 }

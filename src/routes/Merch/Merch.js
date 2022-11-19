@@ -8,6 +8,7 @@ import IMG2 from '../../interactive assets/image2.jpg'
 import IMG3 from '../../interactive assets/image3.jpg'
 import IMG4 from '../../interactive assets/image4.jpg'
 import IMG5 from '../../interactive assets/image5.jpg'
+import IMG6 from '../../interactive assets/image6.jpg'
 
 const data = [
     {
@@ -40,6 +41,12 @@ const data = [
         productName: 'Figure Hoodie',
         price: '$65.00 USD',
     },
+    {
+        id: 5,
+        image: IMG6,
+        productName: 'RTYWD Photo Tee',
+        price: '$30.00 USD',
+    },
 ]
 
 export default function Merch() {
@@ -52,7 +59,7 @@ export default function Merch() {
                                 return (
                                     <div className="cards__merch" key={id}>
                                         <div className="merch_components">
-                                            <img src={image} />
+                                            <img src={image} alt='merch'/>
                                             <p>{productName}</p>
                                             <h3>{price}</h3>
                                             <button className='merch_button'><i className="fas fa-shopping-cart">BUY</i></button>

@@ -28,6 +28,18 @@ h2 {
     padding: 20px;
 }
 
+.tour_container {
+    padding: 30px;
+    width: 70%;
+}
+
+#tour {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .tour {
     background-color: white;
     border-radius: 10px;
@@ -37,7 +49,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    width: 60%;
+    width: 100%;
     min-width: 300px;
 }
 
